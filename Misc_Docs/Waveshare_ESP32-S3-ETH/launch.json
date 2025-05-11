@@ -1,0 +1,33 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "configId": "esp32:esp32:yb_esp32s3_eth",
+      "cwd": "${workspaceRoot}",
+      "request": "attach",
+      "type": "cortex-debug",
+      "executable": "C:\\Users\\MyPC\\AppData\\Local\\arduino\\sketches\\3B55B818D0365B2E89C5034B0E248DBF/ESP32-CAM_MJPEG2SD.ino.elf",
+      "toolchainPrefix": "xtensa-esp32s3-elf",
+      "svdFile": "C:\\Users\\MyPC\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.2.0/tools/ide-debug/svd/esp32s3.svd",
+      "name": "YelloByte YB-ESP32-S3-ETH",
+      "objdumpPath": "C:\\Users\\MyPC\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esp-x32\\2411/bin/xtensa-esp32s3-elf-objdump",
+      "overrideAttachCommands": [
+        "set remote hardware-watchpoint-limit 2",
+        "monitor reset halt",
+        "monitor gdb_sync",
+        "thb setup",
+        "c"
+      ],
+      "overrideRestartCommands": [
+        "monitor reset halt",
+        "monitor gdb_sync"
+      ],
+      "serverpath": "C:\\Users\\MyPC\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\openocd-esp32\\v0.12.0-esp32-20241016/bin/openocd",
+      "servertype": "openocd",
+      "armToolchainPath": "C:\\Users\\MyPC\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\xtensa-esp-elf-gdb\\14.2_20240403/bin/",
+      "configFiles": [
+        "board/esp32s3-builtin.cfg"
+      ]
+    }
+  ]
+}

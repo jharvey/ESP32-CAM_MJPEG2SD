@@ -555,7 +555,7 @@
 #define PCLK_GPIO_NUM    39 //
 
 #define USE_WS2812          // This board has a WS2812 RGB LED, so lets define it. 
-#define LED_GPIO_NUM     4  // WS2812B rgb led NOTE GPIO21 is normally NC
+#define LED_GPIO_NUM     21  // WS2812B rgb led NOTE GPIO21 is normally NC, schematic notes it should be GPIO4, but it's 21
 
 // Define SD Pins
 #define SD_MMC_CLK 7        //
@@ -564,9 +564,9 @@
 // Chip select pin is GPIO4, this has 10k pull up, so non-configured pin will default to being selected, but beware that pin may be imporant. 
 
 // Define Mic Pins (DOES NOT have NATIVE Mic)
-#define I2S_SD 34           // I2S Microphone
-#define I2S_WS 33
-#define I2S_SCK 35          // clock
+#define I2S_SD -1 //34           // I2S Microphone
+#define I2S_WS -1 //33
+#define I2S_SCK -1 //35          // clock
 
 
 

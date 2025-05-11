@@ -2,6 +2,8 @@
 //
 // s60sc 2021, 2022, 2024
 
+#define CONFIG_IDF_TARGET_ESP32S3 true
+
 #pragma once
 #include "globals.h"
 
@@ -32,7 +34,7 @@
 
 // User's ESP32S3 cam board
 #elif defined(CONFIG_IDF_TARGET_ESP32S3)
-#define CAMERA_MODEL_FREENOVE_ESP32S3_CAM
+//#define CAMERA_MODEL_FREENOVE_ESP32S3_CAM
 //#define CAMERA_MODEL_PCBFUN_ESP32S3_CAM
 //#define CAMERA_MODEL_XIAO_ESP32S3 
 //#define CAMERA_MODEL_NEW_ESPS3_RE1_0
@@ -42,7 +44,7 @@
 //#define CAMERA_MODEL_DFRobot_FireBeetle2_ESP32S3
 //#define CAMERA_MODEL_DFRobot_Romeo_ESP32S3
 //#define CAMERA_MODEL_XENOIONEX
-//#define CAMERA_MODEL_Waveshare_ESP32_S3_ETH
+#define CAMERA_MODEL_Waveshare_ESP32_S3_ETH
 //#define AUXILIARY
 #endif
 
