@@ -35,8 +35,8 @@ char* jsonBuff = NULL;
 /** Use the web interface to configure wifi settings **/
 
 char hostName[MAX_HOST_LEN] = ""; // Default Host name
-char ST_SSID[MAX_HOST_LEN]  = ""; //Default router ssid
-char ST_Pass[MAX_PWD_LEN] = ""; //Default router passd
+char ST_SSID[MAX_HOST_LEN]  = "notforyou"; //Default router ssid
+char ST_Pass[MAX_PWD_LEN] = "12345678"; //Default router passd
 
 // leave following blank for dhcp
 char ST_ip[MAX_IP_LEN]  = ""; // Static IP
@@ -46,8 +46,8 @@ char ST_ns1[MAX_IP_LEN] = ""; // DNS Server, can be router IP (needed for SNTP)
 char ST_ns2[MAX_IP_LEN] = ""; // alternative DNS Server, can be blank
 
 // Access point Config Portal SSID and Pass
-char AP_SSID[MAX_HOST_LEN] = "";
-char AP_Pass[MAX_PWD_LEN] = "";
+char AP_SSID[MAX_HOST_LEN] = "notforyou32";
+char AP_Pass[MAX_PWD_LEN] = "12";
 char AP_ip[MAX_IP_LEN]  = ""; // Leave blank to use 192.168.4.1
 char AP_sn[MAX_IP_LEN]  = "";
 char AP_gw[MAX_IP_LEN]  = "";

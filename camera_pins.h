@@ -564,9 +564,9 @@
 // Chip select pin is GPIO4, this has 10k pull up, so non-configured pin will default to being selected, but beware that pin may be imporant. 
 
 // Define Mic Pins (DOES NOT have NATIVE Mic)
-#define I2S_SD -1 //34           // I2S Microphone
-#define I2S_WS -1 //33
-#define I2S_SCK -1 //35          // clock
+#define I2S_SD 34           // I2S Microphone
+#define I2S_WS 33
+#define I2S_SCK 35          // clock
 
 
 
